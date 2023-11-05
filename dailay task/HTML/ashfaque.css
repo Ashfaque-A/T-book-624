@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 30px;
+    color: aquamarine;
+    background: blue;
+    text-align: center;
+}
+.first-box{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.second-box{
+    align-items: center;
+   justify-items: center;
+   margin-left: 50px;
+   padding: 10px;
+   height: 20px;
+   
+}
+.box-two{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background: red;
+    
+}
+.box-three{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background: green;
+}
+.box-fourth{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background: palevioletred;
+}
