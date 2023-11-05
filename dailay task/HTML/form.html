@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.form.com</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    div{
+        border: 0.5px solid black;
+        height: 600px;
+        width: 600px;
+        background: lavenderblush;
+       margin-left: 30%;
+        
+    }
+    div form{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    input{
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+    }
+</style>
+<body>
+    
+    <div>
+        <h1>REGISTRATION FORM</h1>
+        <form action="" method="get">
+            <!-----first name---->
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" placeholder="First name" required="" maxlength="10">
+             <!-----last name----><br><br>
+             <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" placeholder="Last name" required="">
+             <!-----user name----><br><br>
+             <label for="Uname">User Name</label><br>
+            <input type="text" id="Uname" placeholder="user name" required="">
+             <!-----password----><br><br>
+             <label for="Password">Password</label><br>
+            <input type="password" id="Password" placeholder="Password" required="">
+             <!-----mob no----><br><br>
+             <label for="lname">Mob number</label><br>
+            <input type="text" id="number" placeholder="Mobile no." required="" maxlength="10">
+            <!-----mob no----><br><br>
+            <textarea name="feedback" id="" cols="30" rows="6" style="resize: none;" placeholder="Please give me your feedback."></textarea>
+         <!-----Submit button----><br><br>
+         <button type="submit">Submit</button>
+         <button type="reset" style="margin-left: 30px;">Reset all</button>
+        </form>
+    </div>
+    
+</body>
+</html>
