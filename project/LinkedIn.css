@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: palegoldenrod;
+    height: 60px;
+    display: flex;
+    padding: 10px;
+}
+.header .header-one img{
+    height: 40px;
+    
+}
+.header .header-one input{
+    height: 30px;
+    width: 350px;
+}
+.header .header-one .fa-magnifying-glass{
+    font-size: 25px;
+}
+.header .header-two section img{
+    height: 40px;
+}
+.header .header-one{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.header .header-two{
+    display: flex;
+    margin-left: 300px;
+}
+.header .header-two section{
+padding: 20px;
+   
+}
+.header .header-two a{
+text-decoration: none;
+color: gray;
+}
+.header .header-two section i{
+    color: gray;
+}
+/********************main content*************************/
+
+main{
+    background: gray;
+    width:1550px;
+    height:700px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
