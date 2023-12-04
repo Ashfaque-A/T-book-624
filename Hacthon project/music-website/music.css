@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image:url(music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.background .navigation{
+    background:#313731;
+    height: 55px;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+   
+}
+
+.navigation ul li a{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+   padding: 15px;  
+   margin-left: 10px;
+  
+}
+.navigation ul li a:hover{
+    background: gray;
+}
+.background .music-content{
+    color: white;
+    /* border: red solid 0.5px; */
+    height: 400px;
+    width: 1300px;
+  margin-left: 200px;
+  margin-top: 200px;
+  text-align: center;
+ 
+}
+.background .music-content h1,h3,h5{
+    padding: 15px;
+}
+/************     music stream       **********/
+.music-stream{
+    background: #252529;
+  
+    height: 900px;
+    width: 100%px;
+}
+.music-stream .stream-content{
+    /* border: 0.5px red solid; */
+    height: 330px;
+    width: 1200px;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    padding: 40px;
+}
+.music-stream .stream-content .trial-btn{
+  
+    height: 30px;
+    width: 170px;
+   margin-left: 500px;
+   padding: 15px;
+   background:#b00b1e;
+}
+.music-stream .stream-content .trial-btn:hover{
+    transition: all 0.3 ease;
+    background: red;
+}
+.music-stream .stream-content h1,h2,h4,.stream-btn{
+    padding: 20px;
+    list-style: none;
+    
+}
+.music-stream .stream-content .trial-btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+/************     music collection       **********/
+.music-collection{
+    /* background: white; */
+    height: 700px;
+    /* width: 100%; */
+    padding: 80px;
+}
+.music-collection .music-collection-content{
+    /* border: solid 0.5px red; */
+    height: 300px;
+    width: 1300px;
+    margin-left: 80px;
+    text-align: center;
+    
+}
+.music-collection .music-collection-content .read{
+  /* border: 0.5px solid red; */
+  height: 20px;
+    width: 100px;
+   margin-left: 550px;
+   padding: 15px;
+   background:#3a4b94;
+   color: white;
+   font-size: 20px;
+  
+}
+/************     Entertainment      **********/
+.entertainment{
+    background-image:url(enter.jpg);
+    height: 350px;
+    width: 1385px;
+    padding: 100px;
+}
+.entertainment .entertainment-content{
+    /* border: 00.5px solid red; */
+    height: 250px;
+    width: 1400px;
+    /* margin-left: 20px; */
+    color: white;
+    text-align: center;
+   
+ }
+ /************   gift card     **********/
+ .gift-card{
+    /* background: gray; */
+    background: white;
+    height: 400px;
+    width:100%;
+ }
+ .gift-card .gift-img{
+ display: flex;
+ padding: 50px;
+ }
+ .gift-card .gift-img .gift-content{
+    /* border:  0.5px solid red; */
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+    text-decoration: none;
+ }
+ .gift-card .gift-img .gift-content a{
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+ }
+  /************  footer    **********/
+  footer{
+    background: #252529;
+    height: 300px;
+    width: 100%;
+    color: white;
+    display: flex;
+ 
+  }
+  footer .footer-one, .footer-two, .footer-three, .footer-four{
+ padding: 30px;
+    
+  }
+  footer .footer-one{
+    margin-left: 300px;
+  }
+  footer h1{
+   font-size: 25px;
+   cursor: pointer;
+  }
+  footer hr{
+    margin-top: 20px;
+    color: gray;
+  }
+  footer ul li{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .copy-right{
+    background: #313731;
+    height: 30px;
+    width: 1545px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+   
+  }
+
