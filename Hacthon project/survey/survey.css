@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-image:url(astro.jpeg);
+   height: 100vh;
+ 
+   background-size: cover;
+}
+.navigation{
+    background: black;
+   height: 60px;
+   /* padding: 10px; */
+   display: flex;
+ 
+}
+.navigation img{
+    height: 30px;
+    width: 80px;
+  
+   
+}
+.navigation span {
+    color: white;
+    margin-top: 10px;
+}
+.navigation .follow-btn{
+    border: 0.5px solid black;
+    height: 20px;
+    width: 85px;
+    /* background: black; */
+    margin-left: 10px;
+    background: green;
+}
+.navigation .bar{
+    display: flex;
+  margin-left: 00px;
+  margin-top: 5px;
+  margin-left: 700px;
+}
+.navigation .bar .box1{
+    /* border: 0.5px solid red; */
+    height: 5px;
+    width: 20px;
+    padding: 20px;
+    color: white;
+    background: gray;
+}
+.navigation .bar .box2{
+    /* border: 0.5px solid red; */
+    height: 5px;
+    width: 140px;
+padding: 20px;
+color: white;
+background: gray;
+}
+.navigation .bar .box3{
+    /* border: 0.5px solid red; */
+    height: 5px;
+    width: 70px;
+    padding: 20px;
+    color: white;
+    background: green;
+}
+.navigation .bar .box4{
+    /* border: 0.5px solid red; */
+    height: 5px;
+    width: 50px;
+    padding: 20px;
+    color: white;
+    background: gray;
+}
+.navigation .bar .box1, .box2, .box3, .box4{
+    margin-left: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu i{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: green;
+    background: gray;
+    width: 40px;
+    height: 40px;
+}
+/*************  form start   ***************/
+form{
+    background: #b8b1bf;
+    height: 1550px;;
+    width: 700px;
+   /* opacity: .8; */
+    margin-left: 400px;
+    margin-top: 50px;
+    color: white;
+    border-radius: 10px;
+}
+input,label{
+    border-radius: 8px;
+}
+
+form .form-data .form-group{
+padding: 15px;
+margin-left: 50px;
+
+}
+form .form-data .form-group input,label{
+  display: flex;
+ 
+ }
+ form .form-data .input-group{
+padding: 10px;
+margin-left: 50px;
+
+ }
+ form .form-data .input-group input{
+    height: 30px;
+    width: 400px;
+    font-size: 25px;
+   }
+   form .form-data .input-group label{
+    font-size: 25px;
+    
+   }
+   form .form-data .form-group select{
+    width: 400px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 50px;
+   }
+   form .form-data .form-group label input .choose{
+    font-size: 30px;
+   }
+   form .form-data .choose-group label,input{
+       font-size: 25px;
+       margin-left: 50px;
+       
+   }
+   form .form-data .select-group label{
+    font-size: 25px;
+   }
+   form .form-data .feed-group{
+    margin-left: 50px;
+    border-radius: 10px;
+   }
+   form .form-data .btn{
+    height: 35px;
+    width: 400px;
+    background: green;
+    color: white;
+    margin-top: 25px;
+   }
