@@ -1,0 +1,123 @@
+.skill-section{
+    background: white;
+    height: 500px;
+    width: 100%;
+    color: black;
+
+}
+.container h2{
+    font-size: 5rem;
+    font-weight: 900;
+   text-align: center;
+}
+.container p{
+    font-size: 3rem;
+    color: rgb(158, 73, 101);
+    text-align: center;
+    font-weight: 600;
+}
+.skills-card{
+    /* border: solid 0.5px black; */
+    width: 200px;
+    height: 150px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    transition: 5s ease;
+    
+}
+.skills-card:hover{
+    background: lavender;
+}
+
+.skill .skill-part{
+    display: flex;
+    margin-top: 50px;
+    
+    padding: 30px;
+}
+.skills-card img{
+    height: 80px;
+    width: 90px;
+   margin-left: 60px;
+   margin-top: 20px;
+    
+}
+.skills-card h3{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+.skill-second{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/**********************/
+.project-detail{
+    background: white;
+    height: auto;
+    width: 100%;
+    color: black;
+   
+}
+.project-detail h2{
+    font-size: 5rem;
+    font-weight: 900;
+   text-align: center;
+}
+.project-detail p{
+    font-size: 3rem;
+    color: rgb(158, 73, 101);
+    text-align: center;
+    font-weight: 600;
+}
+.project-first{
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px;
+}
+.music-project{
+    /* border: 1px solid red; */
+    height: 600px;
+    width: 500px;
+}
+.music{
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 400px;
+    font-family: 'poppins',sans-serif;
+}
+.project-first h3{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.project-first h2{
+    margin-top: 50px;
+}
+.project-first p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: justify;
+}
+.project-first a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    /* color: black; */
+    padding: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.https://key-event.com</title>
+</head>
+<body>
+    <h1>KEY EVENT IN JAVA SCRIPT</h1>
+              
+    <div id="form">
+            <h1>ASHFAQUE ALAM</h1>
+            <p>onkeydown</p>
+            <input type="text" id="down">
+
+            <p>onkeyup</p>
+            <input type="text" id="up">
+
+            <p>onkey press</p>
+            <input type="text" id="press">
+    </div>
+
+    
+    
+
+    <script>
+          let keyevent1=document.getElementById('down');
+          keyevent1.addEventListener('keydown',function show(){
+            // alert (this.value);
+            document.getElementById('form').style.backgroundcolor=this.value;
+            
+          });
+
+          let keyevent2=document.getElementById('up');
+          keyevent2.addEventListener('keyup',function show(){
+            // alert (this.value);
+            document.getElementById('form').style.backgroundcolor=this.value;
+            
+          });
+
+          let keyevent3=document.getElementById('press');
+          keyevent3.addEventListener('keypress',function show(){
+            // alert (this.value);
+            document.getElementById('form').style.backgroundcolor=this.value;
+            
+          });
+
+
+        //   document.addEventListener('keyup',(e)=>{
+        //        if(e.key=='p' && e.ctrlKey){
+        //         e.preventDefault();   //it is use to prevent from default short key.
+        //         alert('WELCOME TO MY FAMILY')
+        //        }
+        //   })
+
+
+        document.addEventListener('keyup',(e)=>{
+               if(e.key=='l'){
+              let name=  prompt('PLEASE ENTER YOUR NAME');
+                alert(name)
+               }
+          })
+    </script>
+</body>
+</html>
